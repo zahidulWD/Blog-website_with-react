@@ -101,7 +101,7 @@
       "description": "An overview of AI technologies and their applications in various industries.",
       "author": "Mia Quinn",
       "category": "Technology",
-      "image": "https://i.ibb.co.com/TBtBWbwN/what-it-takes-for-technologies-to-go-from-breakthrough-to-big-time.webp"
+      "image": "https://i.ibb.co.com/5gY0fsG4/360-F-308697506-9ds-BYHXm9-Fwu-W0qc-Eqim-AEXUvz-Twfzwe.jpg"
     },
     {
       "id": 14,
@@ -142,5 +142,492 @@
       "author": "Sophia Williams",
       "category": "Automotive",
       "image": "https://i.ibb.co.com/b5LSFLp4/002-Production-line-car-assembly-line-in-General-Motors-Manufacturing-Poland-Gliwice-Poland.jpg"
+    },
+    {
+      "id": 19,
+      "title": "The Evolution of Video Games",
+      "description": "A comprehensive look at the development and impact of video games over the decades.",
+      "author": "James Clark",
+      "category": "Entertainment",
+      "image": "https://i.ibb.co.com/fV9bdcd3/photo-1603190287605-e6ade32fa852.jpg"
+    },
+    {
+      "id": 20,
+      "title": "The Evolution of Video Games",
+      "description": "A comprehensive look at the development and impact of video games over the decades.",
+      "author": "James Clark",
+      "category": "Entertainment",
+      "image": "https://i.ibb.co.com/XfvZStDM/images-7.jpg"
+    },
+    {
+      "id": 21,
+      "title": "The Evolution of Video Games",
+      "description": "A comprehensive look at the development and impact of video games over the decades.",
+      "author": "James Clark",
+      "category": "Entertainment",
+      "image": "https://i.ibb.co.com/XfvZStDM/images-7.jpg"
+    },
+    {
+      "id": 22,
+      "title": "The Evolution of Video Games",
+      "description": "A comprehensive look at the development and impact of video games over the decades.",
+      "author": "James Clark",
+      "category": "Entertainment",
+      "image": "https://i.ibb.co.com/XfvZStDM/images-7.jpg"
+    },
+    {
+      "id": 23,
+      "title": "Exploring the Beauty of Nature",
+      "description": "A journey through some of the most breathtaking natural landscapes around the world.",
+      "author": "Alice Johnson",
+      "category": "Travel",
+      "image": "https://i.ibb.co.com/wr0556NW/60ca488a69c73725995296.jpg"
+    },
+    {
+      "id": 24,
+      "title": "Exploring the Beauty of Nature",
+      "description": "A journey through some of the most breathtaking natural landscapes around the world.",
+      "author": "Alice Johnson",
+      "category": "Travel",
+      "image": "https://i.ibb.co.com/KjtfKg2R/sea-3243357-1280-1.jpg"
+    },
+    {
+      "id": 25,
+      "title": "Exploring the Beauty of Nature",
+      "description": "A journey through some of the most breathtaking natural landscapes around the world.",
+      "author": "Alice Johnson",
+      "category": "Travel",
+      "image": "https://i.ibb.co.com/JRN73sVk/europe-portugal-azores-sete-cidades-path-medium.jpg"
+    },
+    {
+      "id": 26,
+      "title": "Exploring the Beauty of Nature",
+      "description": "A journey through some of the most breathtaking natural landscapes around the world.",
+      "author": "Alice Johnson",
+      "category": "Travel",
+      "image": "https://i.ibb.co.com/TM1Jw13h/Jaflong-2-jpg.webp"
+    },
+    {
+      "id": 27,
+      "title": "The Future of Technology: What to Expect",
+      "description": "An in-depth analysis of upcoming technological advancements and their potential impact.",
+      "author": "Bob Smith",
+      "category": "Technology",
+      "image": "https://i.ibb.co.com/FLhvcdG3/images-10.jpg"
+    },
+    {
+      "id": 28,
+      "title": "The Future of Technology: What to Expect",
+      "description": "An in-depth analysis of upcoming technological advancements and their potential impact.",
+      "author": "Bob Smith",
+      "category": "Technology",
+      "image": "https://i.ibb.co.com/SXLWzP68/igniting-innovation-harnessing-power-coding-260nw-2425426569.webp"
+    },
+    {
+      "id": 29,
+      "title": "The Future of Technology: What to Expect",
+      "description": "An in-depth analysis of upcoming technological advancements and their potential impact.",
+      "author": "Bob Smith",
+      "category": "Technology",
+      "image": "https://i.ibb.co.com/RGqPpLyN/images-9.jpg"
+    },
+    {
+      "id": 30,
+      "title": "The Benefits of Mindfulness Meditation",
+      "description": "How practicing mindfulness can improve your mental and physical health.",
+      "author": "Henry Lee",
+      "category": "Health",
+      "image": "https://i.ibb.co.com/xtDmjz68/Health-Coach-Page-Hero-Side.jpg"
+    },
+    {
+      "id": 31,
+      "title": "The Benefits of Mindfulness Meditation",
+      "description": "How practicing mindfulness can improve your mental and physical health.",
+      "author": "Henry Lee",
+      "category": "Health",
+      "image": "https://i.ibb.co.com/hJQPtf80/world-health-day-illustration-concept-with-characters-people-are-exercising-yoga-living-healthy-vect.jpg"
+    },
+    {
+      "id": 32,
+      "title": "The Benefits of Mindfulness Meditation",
+      "description": "How practicing mindfulness can improve your mental and physical health.",
+      "author": "Henry Lee",
+      "category": "Health",
+      "image": "https://i.ibb.co.com/qM3tpdn6/Physical-social-mental1.png"
+    },
+    {
+      "id": 33,
+      "title": "10 Healthy Recipes for a Balanced Diet",
+      "description": "Delicious and nutritious recipes to help you maintain a balanced diet.",
+      "author": "Catherine Lee",
+      "category": "Food",
+      "image": "https://i.ibb.co.com/ZpHppqFj/i-Stock-1131794876-t5d482e40-m800-xt-DADj9-Sv-TVFjzu-Ne-Gu-NUUGY4tm5d6-UGU5tk-KM0s3i-Pk-620x342.jpg"
+    },
+    {
+      "id": 34,
+      "title": "10 Healthy Recipes for a Balanced Diet",
+      "description": "Delicious and nutritious recipes to help you maintain a balanced diet.",
+      "author": "Catherine Lee",
+      "category": "Food",
+      "image": "https://i.ibb.co.com/Jwp50H8h/Homepage-Banner-4.jpg"
+    },
+    {
+      "id": 35,
+      "title": "10 Healthy Recipes for a Balanced Diet",
+      "description": "Delicious and nutritious recipes to help you maintain a balanced diet.",
+      "author": "Catherine Lee",
+      "category": "Food",
+      "image": "https://i.ibb.co.com/7NBKgb63/food-pyramid-meat-animal-products-dietary-vegetarian.webp"
+    },
+    {
+      "id": 36,
+      "title": "10 Healthy Recipes for a Balanced Diet",
+      "description": "Delicious and nutritious recipes to help you maintain a balanced diet.",
+      "author": "Catherine Lee",
+      "category": "Food",
+      "image": "https://i.ibb.co.com/Xk3hrwzz/images-3.jpg"
+    },
+    {
+      "id": 37,
+      "title": "10 Healthy Recipes for a Balanced Diet",
+      "description": "Delicious and nutritious recipes to help you maintain a balanced diet.",
+      "author": "Catherine Lee",
+      "category": "Food",
+      "image": "https://i.ibb.co.com/zVN1WSRH/Healthy-recipes.jpg"
+    },
+    {
+      "id": 38,
+      "title": "Mastering the Art of Photography",
+      "description": "Tips and techniques to take your photography skills to the next level.",
+      "author": "David Martinez",
+      "category": "Photography",
+      "image": "https://i.ibb.co.com/Q3hbMpGS/pexels-photo-1264210.jpg"
+    },
+    {
+      "id": 39,
+      "title": "Mastering the Art of Photography",
+      "description": "Tips and techniques to take your photography skills to the next level.",
+      "author": "David Martinez",
+      "category": "Photography",
+      "image": "https://i.ibb.co.com/pj7HNdvH/DSCF4091-Edit-2000px-60.jpg"
+    },
+    {
+      "id": 40,
+      "title": "Mastering the Art of Photography",
+      "description": "Tips and techniques to take your photography skills to the next level.",
+      "author": "David Martinez",
+      "category": "Photography",
+      "image": "https://i.ibb.co.com/zDyCrvL/canon-future-focus-eos-r6-lifestyle-7-16x9-201cd357200b457f9eb4c11aafa6cfc9.jpg"
+    },
+    {
+      "id": 41,
+      "title": "Mastering the Art of Photography",
+      "description": "Tips and techniques to take your photography skills to the next level.",
+      "author": "David Martinez",
+      "category": "Photography",
+      "image": "https://i.ibb.co.com/HTzYJ0TK/images-13.jpg"
+    },
+    {
+      "id": 42,
+      "title": "Understanding the Stock Market",
+      "description": "A beginner's guide to navigating the complexities of the stock market.",
+      "author": "Eva Green",
+      "category": "Finance",
+      "image": "https://i.ibb.co.com/fzf0w3XL/7-very-good-reasons-to-do-master-s-in-finance.webp"
+    },
+    {
+      "id": 43,
+      "title": "Understanding the Stock Market",
+      "description": "A beginner's guide to navigating the complexities of the stock market.",
+      "author": "Eva Green",
+      "category": "Finance",
+      "image": "https://i.ibb.co.com/5gC0TL6n/banking-finance-lg.jpg"
+    },
+    {
+      "id": 44,
+      "title": "Understanding the Stock Market",
+      "description": "A beginner's guide to navigating the complexities of the stock market.",
+      "author": "Eva Green",
+      "category": "Finance",
+      "image": "https://i.ibb.co.com/nNJzymWd/2947426-Finance-2.jpg"
+    },
+    {
+      "id": 45,
+      "title": "Understanding the Stock Market",
+      "description": "A beginner's guide to navigating the complexities of the stock market.",
+      "author": "Eva Green",
+      "category": "Finance",
+      "image": "https://i.ibb.co.com/21FmgTKP/images-15.jpg"
+    },
+    {
+      "id": 46,
+      "title": "The History of Ancient Civilizations",
+      "description": "An exploration of the rise and fall of ancient civilizations.",
+      "author": "Frank Harris",
+      "category": "History",
+      "image": "https://i.ibb.co.com/DHtcGpvG/images-19.jpg"
+    },
+    {
+      "id": 47,
+      "title": "The History of Ancient Civilizations",
+      "description": "An exploration of the rise and fall of ancient civilizations.",
+      "author": "Frank Harris",
+      "category": "History",
+      "image": "https://i.ibb.co.com/9HWtHmSq/images-16.jpg"
+    },
+    {
+      "id": 48,
+      "title": "The History of Ancient Civilizations",
+      "description": "An exploration of the rise and fall of ancient civilizations.",
+      "author": "Frank Harris",
+      "category": "History",
+      "image": "https://i.ibb.co.com/FtLzfcj/images-18.jpg"
+    },
+    {
+      "id": 49,
+      "title": "Top 10 Programming Languages to Learn",
+      "description": "An overview of the most popular programming languages in today's tech industry.",
+      "author": "Grace Kim",
+      "category": "Programming",
+      "image": "https://i.ibb.co.com/wZRwrkSf/coding-vs-programming.webp"
+    },
+    {
+      "id": 50,
+      "title": "Top 10 Programming Languages to Learn",
+      "description": "An overview of the most popular programming languages in today's tech industry.",
+      "author": "Grace Kim",
+      "category": "Programming",
+      "image": "https://i.ibb.co.com/Zz6XP3nQ/applications-of-computer-programming.webp"
+    },
+    {
+      "id": 51,
+      "title": "Top 10 Programming Languages to Learn",
+      "description": "An overview of the most popular programming languages in today's tech industry.",
+      "author": "Grace Kim",
+      "category": "Programming",
+      "image": "https://i.ibb.co.com/PvLzBQwj/coding-background.webp"
+    },
+    {
+      "id": 52,
+      "title": "Top 10 Programming Languages to Learn",
+      "description": "An overview of the most popular programming languages in today's tech industry.",
+      "author": "Grace Kim",
+      "category": "Programming",
+      "image": "https://i.ibb.co.com/SXLWzP68/igniting-innovation-harnessing-power-coding-260nw-2425426569.webp"
+    },
+    {
+      "id": 53,
+      "title": "Top 10 Programming Languages to Learn",
+      "description": "An overview of the most popular programming languages in today's tech industry.",
+      "author": "Grace Kim",
+      "category": "Programming",
+      "image": "https://i.ibb.co.com/5gY0fsG4/360-F-308697506-9ds-BYHXm9-Fwu-W0qc-Eqim-AEXUvz-Twfzwe.jpg"
+    },
+    {
+      "id": 54,
+      "title": "Exploring the Universe: A Guide to Astronomy",
+      "description": "An introduction to the fascinating world of astronomy and space exploration.",
+      "author": "Isabella Moore",
+      "category": "Science",
+      "image": "https://i.ibb.co.com/5WxDnK10/importance-of-learning-science.webp"
+    },
+    {
+      "id": 55,
+      "title": "Exploring the Universe: A Guide to Astronomy",
+      "description": "An introduction to the fascinating world of astronomy and space exploration.",
+      "author": "Isabella Moore",
+      "category": "Science",
+      "image": "https://i.ibb.co.com/VcY9DM5d/images-23.jpg"
+    },
+    {
+      "id": 56,
+      "title": "Exploring the Universe: A Guide to Astronomy",
+      "description": "An introduction to the fascinating world of astronomy and space exploration.",
+      "author": "Isabella Moore",
+      "category": "Science",
+      "image": "https://i.ibb.co.com/7dxLC0K5/images.png"
+    },
+    {
+      "id": 57,
+      "title": "Exploring the Universe: A Guide to Astronomy",
+      "description": "An introduction to the fascinating world of astronomy and space exploration.",
+      "author": "Isabella Moore",
+      "category": "Science",
+      "image": "https://i.ibb.co.com/RpHt6LvY/Science.png"
+    },
+    {
+      "id": 58,
+      "title": "Building Your Own Home: A Step-by-Step Guide",
+      "description": "Everything you need to know about building your dream home from scratch.",
+      "author": "Jack Nelson",
+      "category": "Home Improvement",
+      "image": "https://i.ibb.co.com/wZm2jy6c/2ffbc30e-41c3-46cc-afbd-6c5ac964ed52.webp"
+    },
+    {
+      "id": 59,
+      "title": "Building Your Own Home: A Step-by-Step Guide",
+      "description": "Everything you need to know about building your dream home from scratch.",
+      "author": "Jack Nelson",
+      "category": "Home Improvement",
+      "image": "https://i.ibb.co.com/bRQxPcmC/images-24.jpg"
+    },
+    {
+      "id": 60,
+      "title": "Building Your Own Home: A Step-by-Step Guide",
+      "description": "Everything you need to know about building your dream home from scratch.",
+      "author": "Jack Nelson",
+      "category": "Home Improvement",
+      "image": "https://i.ibb.co.com/fVFZmjyd/images-25.jpg"
+    },
+    {
+      "id": 61,
+      "title": "The Art of Effective Communication",
+      "description": "Strategies to enhance your communication skills in personal and professional settings.",
+      "author": "Karen Owens",
+      "category": "Self-Improvement",
+      "image": "https://i.ibb.co.com/20JycSx0/images-29.jpg"
+    },
+    {
+      "id": 62,
+      "title": "The Art of Effective Communication",
+      "description": "Strategies to enhance your communication skills in personal and professional settings.",
+      "author": "Karen Owens",
+      "category": "Self-Improvement",
+      "image": "https://i.ibb.co.com/8LcRkWtQ/images-28.jpg"
+    },
+    {
+      "id": 63,
+      "title": "The Art of Effective Communication",
+      "description": "Strategies to enhance your communication skills in personal and professional settings.",
+      "author": "Karen Owens",
+      "category": "Self-Improvement",
+      "image": "https://i.ibb.co.com/kVNFDhX4/images-27.jpg"
+    },
+    {
+      "id": 64,
+      "title": "A Guide to Sustainable Living",
+      "description": "Tips and practices to lead a more sustainable and eco-friendly lifestyle.",
+      "author": "Liam Peterson",
+      "category": "Environment",
+      "image": "https://i.ibb.co.com/211V4r7t/images-30.jpg"
+    },
+    {
+      "id": 65,
+      "title": "A Guide to Sustainable Living",
+      "description": "Tips and practices to lead a more sustainable and eco-friendly lifestyle.",
+      "author": "Liam Peterson",
+      "category": "Environment",
+      "image": "https://i.ibb.co.com/tPT8LQmw/concept-save-the-world-save-environment-the-world-is-in-the-grass-of-the-green-bokeh-background-phot.jpg"
+    },
+    {
+      "id": 66,
+      "title": "A Guide to Sustainable Living",
+      "description": "Tips and practices to lead a more sustainable and eco-friendly lifestyle.",
+      "author": "Liam Peterson",
+      "category": "Environment",
+      "image": "https://i.ibb.co.com/nspv1P13/Feature-Image.jpg"
+    },
+    {
+      "id": 67,
+      "title": "A Guide to Sustainable Living",
+      "description": "Tips and practices to lead a more sustainable and eco-friendly lifestyle.",
+      "author": "Liam Peterson",
+      "category": "Environment",
+      "image": "https://i.ibb.co.com/CpL9RPBV/shutterstock-274981748-1-1024x874.jpg"
+    },
+    {
+      "id": 68,
+      "title": "Exploring Different Art Forms Around the World",
+      "description": "A journey through various art forms and their cultural significance.",
+      "author": "Olivia Smith",
+      "category": "Art",
+      "image": "https://i.ibb.co.com/gbH1SPhF/images-31.jpg"
+    },
+    {
+      "id": 69,
+      "title": "Exploring Different Art Forms Around the World",
+      "description": "A journey through various art forms and their cultural significance.",
+      "author": "Olivia Smith",
+      "category": "Art",
+      "image": "https://i.ibb.co.com/jP9GJm9R/images-32.jpg"
+    },
+    {
+      "id": 70,
+      "title": "Exploring Different Art Forms Around the World",
+      "description": "A journey through various art forms and their cultural significance.",
+      "author": "Olivia Smith",
+      "category": "Art",
+      "image": "https://i.ibb.co.com/QFcJM5fq/images-33.jpg"
+    },
+    {
+      "id": 71,
+      "title": "Exploring Different Art Forms Around the World",
+      "description": "A journey through various art forms and their cultural significance.",
+      "author": "Olivia Smith",
+      "category": "Art",
+      "image": "https://i.ibb.co.com/WN6ZrBss/images-35.jpg"
+    },
+    {
+      "id": 72,
+      "title": "Exploring Different Art Forms Around the World",
+      "description": "A journey through various art forms and their cultural significance.",
+      "author": "Olivia Smith",
+      "category": "Art",
+      "image": "https://i.ibb.co.com/WN6ZrBss/images-35.jpg"
+    },
+    {
+      "id": 73,
+      "title": "The Power of Minimalist Living",
+      "description": "How adopting a minimalist lifestyle can improve mental clarity and overall well-being.",
+      "author": "Victor Adams",
+      "category": "Lifestyle",
+      "image": "https://i.ibb.co.com/TqB7Rb4p/Path-to-Wellnesss.webp"
+    },
+    {
+      "id": 74,
+      "title": "The Power of Minimalist Living",
+      "description": "How adopting a minimalist lifestyle can improve mental clarity and overall well-being.",
+      "author": "Victor Adams",
+      "category": "Lifestyle",
+      "image": "https://i.ibb.co.com/Hf81RWJh/images-36.jpg"
+    },    {
+      "id": 75,
+      "title": "The Power of Minimalist Living",
+      "description": "How adopting a minimalist lifestyle can improve mental clarity and overall well-being.",
+      "author": "Victor Adams",
+      "category": "Lifestyle",
+      "image": "https://i.ibb.co.com/jkS73zmp/images-37.jpg"
+    },
+    {
+      "id": 76,
+      "title": "The Rise of Electric Vehicles",
+      "description": "Exploring the impact and future of electric cars in the automotive industry.",
+      "author": "Sophia Williams",
+      "category": "Automotive",
+      "image": "https://i.ibb.co.com/qL3gk4J2/images-39.jpg"
+    },
+    {
+      "id": 77,
+      "title": "The Rise of Electric Vehicles",
+      "description": "Exploring the impact and future of electric cars in the automotive industry.",
+      "author": "Sophia Williams",
+      "category": "Automotive",
+      "image": "https://i.ibb.co.com/qYWZdFY3/images-42.jpg"
+    },
+    {
+      "id": 88,
+      "title": "The Rise of Electric Vehicles",
+      "description": "Exploring the impact and future of electric cars in the automotive industry.",
+      "author": "Sophia Williams",
+      "category": "Automotive",
+      "image": "https://i.ibb.co.com/mrJhj8Sf/Auto-heading-web.jpg"
+    },
+    {
+      "id": 79,
+      "title": "The Rise of Electric Vehicles",
+      "description": "Exploring the impact and future of electric cars in the automotive industry.",
+      "author": "Sophia Williams",
+      "category": "Automotive",
+      "image": "https://i.ibb.co.com/XmfDChq/images-41.jpg"
     }
   ]

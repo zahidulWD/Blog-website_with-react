@@ -1,104 +1,111 @@
-import React from 'react';
+import React, { useState } from "react";
+import { Link } from "react-router-dom";
+import { signInWithEmailAndPassword, signInWithPopup, GoogleAuthProvider } from "firebase/auth";
+import { auth } from "../components/firebaseConfig";
 
 const Login = () => {
-    return (
-<section class="bg-white">
-    <div class="grid grid-cols-1 lg:grid-cols-2">
-        <div class="flex items-center justify-center px-4 py-10 bg-white sm:px-6 lg:px-8 sm:py-16 lg:py-24">
-            <div class="xl:w-full xl:max-w-sm 2xl:max-w-md xl:mx-auto">
-                <h2 class="text-3xl font-bold leading-tight text-black sm:text-4xl">Sign in to Celebration</h2>
-                <p class="mt-2 text-base text-gray-600">Don’t have an account? <a href="#" title="" class="font-medium text-blue-600 transition-all duration-200 hover:text-blue-700 hover:underline focus:text-blue-700">Create a free account</a></p>
+  const [showPassword, setShowPassword] = useState(false);
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+  const [error, setError] = useState("");
 
-                <form action="#" method="POST" class="mt-8">
-                    <div class="space-y-5">
-                        <div>
-                            <label for="" class="text-base font-medium text-gray-900"> Email address </label>
-                            <div class="mt-2.5">
-                                <input
-                                    type="email"
-                                    name=""
-                                    id=""
-                                    placeholder="Enter email to get started"
-                                    class="block w-full p-4 text-black placeholder-gray-500 transition-all duration-200 border border-gray-200 rounded-md bg-gray-50 focus:outline-none focus:border-blue-600 focus:bg-white caret-blue-600"
-                                />
-                            </div>
-                        </div>
+  const handleLogin = async (e) => {
+    e.preventDefault();
+    try {
+      await signInWithEmailAndPassword(auth, email, password);
+      alert("Login Successful!");
+    } catch (err) {
+      setError(err.message);
+    }
+  };
 
-                        <div>
-                            <div class="flex items-center justify-between">
-                                <label for="" class="text-base font-medium text-gray-900"> Password </label>
+  const googleProvider = new GoogleAuthProvider();
+  const handleGoogleSignIn = async () => {
+    try {
+      await signInWithPopup(auth, googleProvider);
+      alert("Google Sign-In Successful!");
+    } catch (err) {
+      setError(err.message);
+    }
+  };
 
-                                <a href="#" title="" class="text-sm font-medium text-blue-600 hover:underline hover:text-blue-700 focus:text-blue-700"> Forgot password? </a>
-                            </div>
-                            <div class="mt-2.5">
-                                <input
-                                    type="password"
-                                    name=""
-                                    id=""
-                                    placeholder="Enter your password"
-                                    class="block w-full p-4 text-black placeholder-gray-500 transition-all duration-200 border border-gray-200 rounded-md bg-gray-50 focus:outline-none focus:border-blue-600 focus:bg-white caret-blue-600"
-                                />
-                            </div>
-                        </div>
-
-                        <div>
-                            <button type="submit" class="inline-flex items-center justify-center w-full px-4 py-4 text-base font-semibold text-white transition-all duration-200 bg-blue-600 border border-transparent rounded-md focus:outline-none hover:bg-blue-700 focus:bg-blue-700">Log in</button>
-                        </div>
-                    </div>
-                </form>
-
-                <div class="mt-3 space-y-3">
-                    <button
-                        type="button"
-                        class="relative inline-flex items-center justify-center w-full px-4 py-4 text-base font-semibold text-gray-700 transition-all duration-200 bg-white border-2 border-gray-200 rounded-md hover:bg-gray-100 focus:bg-gray-100 hover:text-black focus:text-black focus:outline-none"
-                    >
-                        <div class="absolute inset-y-0 left-0 p-4">
-                            <svg class="w-6 h-6 text-rose-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
-                                <path
-                                    d="M20.283 10.356h-8.327v3.451h4.792c-.446 2.193-2.313 3.453-4.792 3.453a5.27 5.27 0 0 1-5.279-5.28 5.27 5.27 0 0 1 5.279-5.279c1.259 0 2.397.447 3.29 1.178l2.6-2.599c-1.584-1.381-3.615-2.233-5.89-2.233a8.908 8.908 0 0 0-8.934 8.934 8.907 8.907 0 0 0 8.934 8.934c4.467 0 8.529-3.249 8.529-8.934 0-.528-.081-1.097-.202-1.625z"
-                                ></path>
-                            </svg>
-                        </div>
-                        Sign in with Google
-                    </button>
-
-                    <button
-                        type="button"
-                        class="relative inline-flex items-center justify-center w-full px-4 py-4 text-base font-semibold text-gray-700 transition-all duration-200 bg-white border-2 border-gray-200 rounded-md hover:bg-gray-100 focus:bg-gray-100 hover:text-black focus:text-black focus:outline-none"
-                    >
-                        <div class="absolute inset-y-0 left-0 p-4">
-                            <svg class="w-6 h-6 text-[#2563EB]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
-                                <path d="M13.397 20.997v-8.196h2.765l.411-3.209h-3.176V7.548c0-.926.258-1.56 1.587-1.56h1.684V3.127A22.336 22.336 0 0 0 14.201 3c-2.444 0-4.122 1.492-4.122 4.231v2.355H7.332v3.209h2.753v8.202h3.312z"></path>
-                            </svg>
-                        </div>
-                        Sign in with Facebook
-                    </button>
-                </div>
-            </div>
+  return (
+    <section className="bg-gradient-to-b from-green-300 to-green-200">
+      <div className="px-0 py-20 mx-auto max-w-7xl sm:px-4">
+        <div className="w-full px-4 pt-5 pb-6 mx-auto mt-8 mb-6 bg-white rounded-lg shadow-xl sm:w-10/12 md:w-8/12 lg:w-6/12 xl:w-4/12 sm:px-6">
+          <h1 className="mb-4 text-lg font-semibold text-gray-900">Log in to your account</h1>
+          {error && <p className="text-red-500">{error}</p>}
+          <form className="mb-8 space-y-4" onSubmit={handleLogin}>
+            <label className="block">
+              <span className="text-xs font-medium text-gray-700">Your Email</span>
+              <input
+                className="w-full px-4 py-2 border rounded-md bg-gray-50 focus:outline-none"
+                type="email"
+                placeholder="Email Address"
+                required
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
+              />
+            </label>
+            <label className="block relative">
+              <span className="text-xs font-medium text-gray-700">Your Password</span>
+              <input
+                className="w-full px-4 py-2 border rounded-md bg-gray-50 focus:outline-none pr-10"
+                type={showPassword ? "text" : "password"}
+                placeholder="Password"
+                required
+                value={password}
+                onChange={(e) => setPassword(e.target.value)}
+              />
+              <button
+                type="button"
+                className="absolute right-3 top-9"
+                onClick={() => setShowPassword(!showPassword)}
+              >
+                {showPassword ? (
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" className="w-6 h-6">
+                    <path d="M288 32c-80.8 0-145.5 36.8-192.6 80.6C48.6 156 17.3 208 2.5 243.7c-3.3 7.9-3.3 16.7 0 24.6C17.3 304 48.6 356 95.4 399.4C142.5 443.2 207.2 480 288 480s145.5-36.8 192.6-80.6c46.8-43.5 78.1-95.4 93-131.1c3.3-7.9 3.3-16.7 0-24.6c-14.9-35.7-46.2-87.7-93-131.1C433.5 68.8 368.8 32 288 32zM144 256a144 144 0 1 1 288 0 144 144 0 1 1 -288 0zm144-64c0 35.3-28.7 64-64 64c-7.1 0-13.9-1.2-20.3-3.3c-5.5-1.8-11.9 1.6-11.7 7.4c.3 6.9 1.3 13.8 3.2 20.7c13.7 51.2 66.4 81.6 117.6 67.9s81.6-66.4 67.9-117.6c-11.1-41.5-47.8-69.4-88.6-71.1c-5.8-.2-9.2 6.1-7.4 11.7c2.1 6.4 3.3 13.2 3.3 20.3z" />
+                  </svg>
+                ) : (
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" className="w-6 h-6">
+                    <path d="M38.8 5.1C28.4-3.1 13.3-1.2 5.1 9.2S-1.2 34.7 9.2 42.9l592 464c10.4 8.2 25.5 6.3 33.7-4.1s6.3-25.5-4.1-33.7L525.6 386.7c39.6-40.6 66.4-86.1 79.9-118.4c3.3-7.9 3.3-16.7 0-24.6c-14.9-35.7-46.2-87.7-93-131.1C465.5 68.8 400.8 32 320 32c-68.2 0-125 26.3-169.3 60.8L38.8 5.1zM223.1 149.5C248.6 126.2 282.7 112 320 112c79.5 0 144 64.5 144 144c0 24.9-6.3 48.3-17.4 68.7L408 294.5c8.4-19.3 10.6-41.4 4.8-63.3c-11.1-41.5-47.8-69.4-88.6-71.1c-5.8-.2-9.2 6.1-7.4 11.7c2.1 6.4 3.3 13.2 3.3 20.3c0 10.2-2.4 19.8-6.6 28.3l-90.3-70.8zM373 389.9c-16.4 6.5-34.3 10.1-53 10.1c-79.5 0-144-64.5-144-144c0-6.9 .5-13.6 1.4-20.2L83.1 161.5C60.3 191.2 44 220.8 34.5 243.7c-3.3 7.9-3.3 16.7 0 24.6c14.9 35.7 46.2 87.7 93 131.1C174.5 443.2 239.2 480 320 480c47.8 0 89.9-12.9 126.2-32.5L373 389.9z" />
+                  </svg>
+                )}
+              </button>
+            </label>
+            <input
+              type="submit"
+              className="w-full mt-1 bg-gradient-to-r from-teal-200 to-lime-200 hover:bg-gradient-to-l hover:from-teal-200 hover:to-lime-200 focus:ring-4 focus:outline-none focus:ring-lime-200 font-medium text-sm px-5 py-2.5 text-center text-black rounded-md cursor-pointer"
+              value="Login"
+            />
+          </form>
+          <div className="flex flex-col w-full max-w-xs gap-y-5 items-center mb-2">
+            <button
+              className="bg-white flex items-center text-gray-700 justify-center gap-x-3 text-sm sm:text-base rounded-lg hover:bg-gray-100 duration-300 transition-colors border px-8 py-2.5"
+              onClick={handleGoogleSignIn}
+            >
+              <svg className="w-5 h-5 sm:h-6 sm:w-6" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clipPath="url(#clip0)">
+                  <path
+                    d="M12.25 6.51c0-.41-.12-.79-.34-1.1H12V5h-1.1v.41H9.2v.68h1.7v1.43h1.1V7.2h1.1l.4-.68h-.4z"
+                    fill="#4285F4"
+                  />
+                  <path
+                    d="M12.25 6.51c0-.41-.12-.79-.34-1.1H12V5h-1.1v.41H9.2v.68h1.7v1.43h1.1V7.2h1.1l.4-.68h-.4z"
+                    fill="#4285F4"
+                  />
+                </g>
+              </svg>
+              Sign in with Google
+            </button>
+          </div>
+          <p className="text-center">
+            Don't have an account? <Link to="/signup" className="text-teal-600">Sign Up</Link>
+          </p>
         </div>
-
-        <div class="flex items-center justify-center px-4 py-10 sm:py-16 lg:py-24 bg-gray-50 sm:px-6 lg:px-8">
-            <div>
-                <img class="w-full mx-auto" src="https://cdn.rareblocks.xyz/collection/celebration/images/signup/1/cards.png" alt="" />
-
-                <div class="w-full max-w-md mx-auto xl:max-w-xl">
-                    <h3 class="text-2xl font-bold text-center text-black">Design your own card</h3>
-                    <p class="leading-relaxed text-center text-gray-500 mt-2.5">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis.</p>
-
-                    <div class="flex items-center justify-center mt-10 space-x-3">
-                        <div class="bg-orange-500 rounded-full w-20 h-1.5"></div>
-
-                        <div class="bg-gray-200 rounded-full w-12 h-1.5"></div>
-
-                        <div class="bg-gray-200 rounded-full w-12 h-1.5"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-    );
+      </div>
+    </section>
+  );
 };
 
 export default Login;

@@ -12,11 +12,15 @@ import Blog from './Pages/Blog.jsx';
 import Contact from './Pages/Contact.jsx';
 import Login from './Pages/Login.jsx';
 import SingleBlogPage from './Pages/SingleBlogPage.jsx';
+import FeaturesSection from './Pages/FeaturesSection.jsx';
+import SingUp from './Pages/SingUp.jsx';
+import ErrorPage from './Pages/ErrorPage.jsx';
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <MainLayout></MainLayout>,
+    errorElement: <ErrorPage></ErrorPage>,
     children:[
       {
        path: "/",
@@ -39,9 +43,17 @@ const router = createBrowserRouter([
     element: <Login></Login>
    },
    {
+    path: "/signup",
+    element: <SingUp></SingUp>
+   },
+   {
     path: "/single-blog/:id",
     element: <SingleBlogPage></SingleBlogPage>
-   }
+   },
+   {
+    path: "/features",
+    element: <FeaturesSection></FeaturesSection>
+   },
   ]
   },
 ]);

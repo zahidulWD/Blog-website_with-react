@@ -26,12 +26,12 @@ const FeaturesSection = () => {
   ];
 
   return (
-    <section className="bg-gray-50 py-12">
+    <section className="bg-gradient-to-b from-green-100 to-green-100  py-12">
       <div className="relative container mx-auto text-center px-4">
       <div className="relative inline-flex mb-6 sm:mb-8">
-  <span className="absolute inset-x-0 bottom-0 border-b-[10px] sm:border-b-[20px] border-[#4ADE80] mb-4 sm:mb-6"></span>
-  <h1 className="relative text-3xl sm:text-4xl font-extrabold text-gray-900 mb-2 sm:mb-4">Why Follow Our Blog?</h1>
-</div>
+         <span className="absolute inset-x-0 bottom-0 border-b-[10px] sm:border-b-[20px] border-[#4ADE80] mb-4 sm:mb-6"></span>
+         <h1 className="relative text-3xl sm:text-4xl font-extrabold text-gray-900 mb-2 sm:mb-4">Why Follow Our Blog?</h1>
+       </div>
 
 
         {/* Features Cards */}
@@ -49,6 +49,7 @@ const FeaturesSection = () => {
         </div>
       </div>
     </section>
+    
   );
 };
 

@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 const MainFooter = () => {
   return (
-    <footer className="bg-gray-900 text-white py-10">
+    <footer className="bg-gradient-to-b from-green-300 to-green-200 text-black py-10">
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
         {/* Top Section */}
         <div className="grid grid-cols-2 gap-6 sm:grid-cols-4">
@@ -13,10 +13,10 @@ const MainFooter = () => {
           <div>
             <h3 className="text-lg font-semibold text-yellow-500">Company</h3>
             <ul className="mt-4 space-y-2">
-              <li><Link to="/about" className="hover:text-lime-300">About</Link></li>
-              <li><Link to="#" className="hover:text-lime-300">Features</Link></li>
-              <li><Link to="#" className="hover:text-lime-300">Works</Link></li>
-              <li><Link to="#" className="hover:text-lime-300">Career</Link></li>
+              <li><Link to="/about" className="hover:text-yellow-500">About</Link></li>
+              <li><Link to="/features" className="hover:text-yellow-500">Features</Link></li>
+              <li><Link to="#" className="hover:text-yellow-500">Works</Link></li>
+              <li><Link to="#" className="hover:text-yellow-500">Career</Link></li>
             </ul>
           </div>
 
@@ -24,10 +24,10 @@ const MainFooter = () => {
           <div>
             <h3 className="text-lg font-semibold text-yellow-500">Help</h3>
             <ul className="mt-4 space-y-2">
-              <li><Link to="#" className="hover:text-lime-300">Support</Link></li>
-              <li><Link to="#" className="hover:text-lime-300">Delivery</Link></li>
-              <li><Link to="#" className="hover:text-lime-300">Terms & Conditions</Link></li>
-              <li><Link to="#" className="hover:text-lime-300">Privacy Policy</Link></li>
+              <li><Link to="#" className="hover:text-yellow-500">Support</Link></li>
+              <li><Link to="#" className="hover:text-yellow-500">Delivery</Link></li>
+              <li><Link to="#" className="hover:text-yellow-500">Terms & Conditions</Link></li>
+              <li><Link to="#" className="hover:text-yellow-500">Privacy Policy</Link></li>
             </ul>
           </div>
 
@@ -35,10 +35,10 @@ const MainFooter = () => {
           <div>
             <h3 className="text-lg font-semibold text-yellow-500">Resources</h3>
             <ul className="mt-4 space-y-2">
-              <li><Link to="#" className="hover:text-lime-300">Free eBooks</Link></li>
-              <li><Link to="#" className="hover:text-lime-300">Development</Link></li>
-              <li><Link to="#" className="hover:text-lime-300">Blog</Link></li>
-              <li><Link to="#" className="hover:text-lime-300">YouTube</Link></li>
+              <li><Link to="#" className="hover:text-yellow-500">Free eBooks</Link></li>
+              <li><Link to="#" className="hover:text-yellow-500">Development</Link></li>
+              <li><Link to="#" className="hover:text-yellow-500">Blog</Link></li>
+              <li><Link to="#" className="hover:text-yellow-500">YouTube</Link></li>
             </ul>
           </div>
 
@@ -46,9 +46,9 @@ const MainFooter = () => {
           <div>
             <h3 className="text-lg font-semibold text-yellow-500">Extra</h3>
             <ul className="mt-4 space-y-2">
-              <li><Link to="#" className="hover:text-lime-300">Contact</Link></li>
-              <li><Link to="#" className="hover:text-lime-300">FAQs</Link></li>
-              <li><Link to="#" className="hover:text-lime-300">Affiliate</Link></li>
+              <li><Link to="#" className="hover:text-yellow-500">Contact</Link></li>
+              <li><Link to="#" className="hover:text-yellow-500">FAQs</Link></li>
+              <li><Link to="#" className="hover:text-yellow-500">Affiliate</Link></li>
             </ul>
           </div>
         </div>
@@ -60,8 +60,12 @@ const MainFooter = () => {
         <div className="flex flex-col sm:flex-row justify-between items-center">
           {/* Brand Logo */}
           <div className="text-2xl font-bold">
-            <span className="text-lime-400">ZahiD</span>
-            <span className="text-yellow-500">Blogs</span>
+            <Link 
+                to="/" 
+                className="text-3xl font-bold bg-gradient-to-r from-teal-600 to-lime-500 bg-clip-text text-transparent hover:bg-gradient-to-l"
+            >
+                ZahiDBlogs
+            </Link>
           </div>
 
           {/* Social Media Icons */}

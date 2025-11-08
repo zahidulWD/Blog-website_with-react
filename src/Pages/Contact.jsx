@@ -2,14 +2,14 @@ import React from 'react';
 
 const Contact = () => {
     return (
-<section class="py-10 bg-gradient-to-b from-green-50 to-green-100 sm:py-16 lg:py-24">
+<section class="py-10 bg-gradient-to-b from-green-100 to-green-200 sm:py-16 lg:py-24">
     <div class="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
         <div class="max-w-2xl mx-auto text-center">
             <h2 class="text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl">Contact us</h2>
             <p class="max-w-xl mx-auto mt-4 text-base leading-relaxed text-black">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis.</p>
         </div>
 
-        <div class="max-w-6xl mx-auto mt-12 overflow-hidden bg-white rounded-md shadow-md lg:mt-20">
+        <div class="max-w-6xl mx-auto mt-12 overflow-hidden rounded-md shadow-md lg:mt-20 bg-gradient-to-b from-green-200 to-green-300">
             <div class="grid items-stretch grid-cols-1 lg:grid-cols-5">
                 <div class="lg:col-span-3">
                     <div class="p-6 sm:p-10">
@@ -20,30 +20,30 @@ const Contact = () => {
                                 <div>
                                     <label for="" class="text-base font-medium text-gray-900"> Your name </label>
                                     <div class="mt-2.5 relative">
-                                        <input type="text" name="" id="" placeholder="" class="block w-full px-4 py-4 text-black placeholder-gray-500 transition-all duration-200 border border-gray-200 rounded-md bg-gray-50 focus:outline-none focus:border-blue-600 focus:bg-white caret-blue-600" />
+                                        <input type="text" name="" id="" placeholder="" class="block w-full px-4 py-4 text-black placeholder-gray-500 transition-all duration-200 border border-gray-200 rounded-md bg-gray-50 focus:outline-none focus:border-lime-600 focus:bg-white caret-lime-600" />
                                     </div>
                                 </div>
 
                                 <div>
                                     <label for="" class="text-base font-medium text-gray-900"> Your email </label>
                                     <div class="mt-2.5 relative">
-                                        <input type="email" name="" id="" placeholder="" class="block w-full px-4 py-4 text-black placeholder-gray-500 transition-all duration-200 border border-gray-200 rounded-md bg-gray-50 focus:outline-none focus:border-blue-600 focus:bg-white caret-blue-600" />
+                                        <input type="email" name="" id="" placeholder="" class="block w-full px-4 py-4 text-black placeholder-gray-500 transition-all duration-200 border border-gray-200 rounded-md bg-gray-50 focus:outline-none focus:border-lime-600 focus:bg-white caret-lime-600" />
                                     </div>
                                 </div>
 
                                 <div>
                                     <label for="" class="text-base font-medium text-gray-900"> Phone number </label>
                                     <div class="mt-2.5 relative">
-                                        <input type="tel" name="" id="" placeholder="" class="block w-full px-4 py-4 text-black placeholder-gray-500 transition-all duration-200 border border-gray-200 rounded-md bg-gray-50 focus:outline-none focus:border-blue-600 focus:bg-white caret-blue-600" />
+                                        <input type="tel" name="" id="" placeholder="" class="block w-full px-4 py-4 text-black placeholder-gray-500 transition-all duration-200 border border-gray-200 rounded-md bg-gray-50 focus:outline-none focus:border-lime-600 focus:bg-white caret-lime-600" />
                                     </div>
                                 </div>
 
                                 <div>
                                     <label for="" class="text-base font-medium text-gray-900"> Company name </label>
                                     <div class="mt-2.5 relative">
-                                        <input type="text" name="" id="" placeholder="" class="block w-full px-4 py-4 text-black placeholder-gray-500 transition-all duration-200 border border-gray-200 rounded-md bg-gray-50 focus:outline-none focus:border-blue-600 focus:bg-white caret-blue-600" />
+                                        <input type="text" name="" id="" placeholder="" class="block w-full px-4 py-4 text-black placeholder-gray-500 transition-all duration-200 border border-gray-200 rounded-md bg-gray-50 focus:outline-none focus:border-lime-600 focus:bg-white caret-lime-600" />
                                     </div>
-                                </div>
+                                </div> 
 
                                 <div class="sm:col-span-2">
                                     <label for="" class="text-base font-medium text-gray-900"> Message </label>
@@ -52,7 +52,7 @@ const Contact = () => {
                                             name=""
                                             id=""
                                             placeholder=""
-                                            class="block w-full px-4 py-4 text-black placeholder-gray-500 transition-all duration-200 border border-gray-200 rounded-md resize-y bg-gray-50 focus:outline-none focus:border-blue-600 focus:bg-white caret-blue-600"
+                                            class="block w-full px-4 py-4 text-black placeholder-gray-500 transition-all duration-200 border border-gray-200 rounded-md resize-y bg-gray-50 focus:outline-none focus:border-lime-600 focus:bg-white caret-lime-600"
                                             rows="4"
                                         ></textarea>
                                     </div>
@@ -68,7 +68,7 @@ const Contact = () => {
                     </div>
                 </div>
 
-                <div class="bg-gray-100 lg:col-span-2">
+                <div class="bg-gray-100 lg:col-span-2 bg-gradient-to-b from-green-200 to-green-300">
                     <div class="h-full p-6 sm:p-10">
                         <div class="flex flex-col justify-between h-full">
                             <div>
@@ -80,18 +80,18 @@ const Contact = () => {
                                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
                                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
                                         </svg>
-                                        <span class="block ml-3 text-base text-gray-900"> 8502 Preston Rd. Inglewood, Maine 98380, USA </span>
+                                        <span class="block ml-3 text-base text-gray-900">Sherpur Sadar, Sherpur-2100, Mymensingh, Bangladesh </span>
                                     </div>
 
                                     <div class="flex items-start">
-                                        <svg class="flex-shrink-0 text-blue-600 w-7 h-7" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <svg class="flex-shrink-0 text-lime-600 w-7 h-7" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                                         </svg>
-                                        <span class="block ml-3 text-base text-gray-900"> kenzi.lawson@example.com </span>
+                                        <span class="block ml-3 text-base text-gray-900">zahidul670791@gmail.com </span>
                                     </div>
 
                                     <div class="flex items-start">
-                                        <svg class="flex-shrink-0 text-blue-600 w-7 h-7" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <svg class="flex-shrink-0 text-lime-600 w-7 h-7" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                             <path
                                                 stroke-linecap="round"
                                                 stroke-linejoin="round"
@@ -100,9 +100,12 @@ const Contact = () => {
                                             />
                                         </svg>
                                         <div class="ml-3">
-                                            <span class="block text-base text-gray-900"> (316) 555-0116 </span>
-                                            <span class="block mt-1 text-base text-gray-900"> (316) 555-0116 </span>
+                                            <span class="block text-base text-gray-900"> +880 1645-769571 </span>
+                                            <span class="block mt-1 text-base text-gray-900">
+                                                <a href="https://wa.me/8801645769571" class="text-blue-600 hover:underline">WhatsApp: +880 1645-769571</a>
+                                            </span>
                                         </div>
+
                                     </div>
                                 </div>
                             </div>
@@ -129,11 +132,11 @@ const Contact = () => {
                                                     rounded-full
                                                     w-7
                                                     h-7
-                                                    focus:bg-blue-600
+                                                    focus:bg-lime-600
                                                     hover:text-white
                                                     focus:text-white
-                                                    hover:bg-blue-600 hover:border-blue-600
-                                                    focus:border-blue-600
+                                                    hover:bg-lime-600 hover:border-lime-600
+                                                    focus:border-lime-600
                                                 "
                                             >
                                                 <svg class="w-4 h-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
@@ -160,11 +163,11 @@ const Contact = () => {
                                                     rounded-full
                                                     w-7
                                                     h-7
-                                                    focus:bg-blue-600
+                                                    focus:bg-lime-600
                                                     hover:text-white
                                                     focus:text-white
-                                                    hover:bg-blue-600 hover:border-blue-600
-                                                    focus:border-blue-600
+                                                    hover:bg-lime-600 hover:border-lime-600
+                                                    focus:border-lime-600
                                                 "
                                             >
                                                 <svg class="w-4 h-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
@@ -189,11 +192,11 @@ const Contact = () => {
                                                     rounded-full
                                                     w-7
                                                     h-7
-                                                    focus:bg-blue-600
+                                                    focus:bg-lime-600
                                                     hover:text-white
                                                     focus:text-white
-                                                    hover:bg-blue-600 hover:border-blue-600
-                                                    focus:border-blue-600
+                                                    hover:bg-lime-600 hover:border-lime-600
+                                                    focus:border-lime-600
                                                 "
                                             >
                                                 <svg class="w-4 h-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
@@ -222,11 +225,11 @@ const Contact = () => {
                                                     rounded-full
                                                     w-7
                                                     h-7
-                                                    focus:bg-blue-600
+                                                    focus:bg-lime-600
                                                     hover:text-white
                                                     focus:text-white
-                                                    hover:bg-blue-600 hover:border-blue-600
-                                                    focus:border-blue-600
+                                                    hover:bg-lime-600 hover:border-lime-600
+                                                    focus:border-lime-600
                                                 "
                                             >
                                                 <svg class="w-4 h-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
