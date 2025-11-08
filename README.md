@@ -9,7 +9,7 @@ Developed with **React**, **Tailwind CSS**, and **DaisyUI**, ZahiDVlogs focuses 
 ---
 
 ## 🔗 Live Demo  
-👉 [🌐 Visit ZahiDVlogs Live Website](https://zahidvlogs.netlify.app/)
+👉 [🌐 Visit ZahiDVlogs Live Website](https://zahidblogs.surge.sh/)
 
 ---
 
